@@ -4,21 +4,21 @@ export const portfolioData: PortfolioData = {
   name: 'Narmadha G',
   headline: 'Software Engineer — AI & Machine Learning',
   contact: {
-    email: 'narmadha@example.com',
-    phone: '+91 XXXXXXXXXX',
-    location: 'Chennai, India',
+    email: 'narmadhaganesan1@gmail.com',
+    phone: '+91 xxxxx-xxxxx',
+    location: 'Coimbatore, India',
     social: {
-      linkedin: 'https://linkedin.com/in/your-profile',
-      github: 'https://github.com/your-username',
-      website: 'https://your-website.com'
+      linkedin: 'https://www.linkedin.com/in/narmadha-g-794015228/',
+      github: 'https://github.com/narmadha-17/',
+      website: ''
     }
   },
   summary:
     'Software Engineer experienced in Python, FastAPI, ML workflows, prompt engineering, and productionizing models. Passion for building AI-driven web apps.',
   skills: {
-    technical: ['Python', 'TypeScript', 'MongoDB', 'SQL'],
-    frameworks: ['FastAPI', 'React', 'Tailwind', 'LangGraph', 'LangSmith'],
-    tools: ['Git', 'Docker', 'Vercel', 'AWS S3'],
+    technical: ['Python', 'TypeScript', 'MongoDB'],
+    frameworks: ['FastAPI', 'LangGraph', 'LangSmith'],
+    tools: ['Git'],
     soft: ['Leadership', 'Mentoring', 'Public Speaking']
   },
   projects: [
@@ -42,7 +42,7 @@ export const portfolioData: PortfolioData = {
   experience: [
     {
       id: 'e1',
-      role: 'Software Engineer Trainee',
+      role: 'Associate Software Engineer',
       company: 'Workhall Private Limited',
       start: 'Jun 2025',
       bullets: [
