@@ -1,7 +1,7 @@
 
 
 const skills = [
-"Python", "FastAPI", "Machine Learning", "Deep Learning", "MongoDB", "React", "TypeScript", "LLM Workflows", "LangChain", "LangGraph"
+"Python", "FastAPI", "Machine Learning", "Deep Learning", "MongoDB", "LLM Workflows", "LangChain", "LangGraph", "LangSmith", "Prompt Engineering"
 ];
 
 

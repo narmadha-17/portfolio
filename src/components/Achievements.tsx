@@ -9,7 +9,7 @@ return (
 			<li>Jury Choice Award - Paper Presentation</li>
 			<li>Filed Patent: ODOR ALERT</li>
 			<li>Trained 50+ students in communication skills</li>
-			<li>Coordinator - National Conference (Impellz'23)</li>
+			<li>Organizer - National Conference (Impellz'23)</li>
 		</ul>
 	</section>
 );

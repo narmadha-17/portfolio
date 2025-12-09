@@ -14,7 +14,7 @@ Narmadha G
 
 
 <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.3 }} className="mt-4 text-xl md:text-2xl text-gray-300">
-Software Engineer | AI & ML Specialist
+Software Engineer | ML Enthusiast | AI Developer
 </motion.p>
 
 
