@@ -1,5 +1,6 @@
+"use client";
 import React from "react";
-// ...existing code...
+import { ContainerScroll } from "./ui/container-scroll-animation";
 
 // Example project data
 const projects = [
@@ -51,15 +52,36 @@ export default function Projects() {
   return (
     <section id="projects" className="py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8">Projects</h2>
-        <div className="space-y-12">
+        <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
+        <div className="space-y-20">
           {projects.map((project, idx) => (
-            <div key={idx} className="w-full overflow-hidden bg-white dark:bg-[#0B0B0F] rounded-xl shadow p-6 flex flex-col md:flex-row items-center">
-              <img src={project.image} alt="Project" className="w-32 h-32 object-cover rounded-lg mr-6" />
-              <div className="flex-1">
-                <div className="text-xl font-semibold mb-2">{project.title}</div>
-                <a href={project.badgeLink} target="_blank" rel="noopener noreferrer" className="inline-block mt-2 text-blue-500 underline">View Project</a>
-              </div>
+            <div key={idx} className="flex flex-col overflow-hidden">
+              <ContainerScroll
+                titleComponent={
+                  <>
+                    <div className="text-2xl md:text-4xl font-semibold text-black dark:text-white mb-4">
+                      {project.title}
+                    </div>
+                    <a
+                      href={project.badgeLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mt-2 text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 underline text-lg"
+                    >
+                      View on GitHub →
+                    </a>
+                  </>
+                }
+              >
+                <img
+                  src={project.image}
+                  alt={`Project ${idx + 1}`}
+                  height={720}
+                  width={1400}
+                  className="mx-auto rounded-2xl object-cover h-full object-left-top"
+                  draggable={false}
+                />
+              </ContainerScroll>
             </div>
           ))}
         </div>
