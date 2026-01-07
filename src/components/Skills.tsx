@@ -1,21 +1,54 @@
+import React, { useEffect, useState } from "react";
+import Marqueee from "./Marqueee";
+import 'react-circular-progressbar/dist/styles.css';
 
+const Skills = () => {
+	const [images, setImages] = useState<string[]>([]);
+	// Using CDN URLs for reliable image loading without local assets
 
-const skills = [
-"Python", "FastAPI", "Machine Learning", "Deep Learning", "MongoDB", "LLM Workflows", "LangChain", "LangGraph", "LangSmith", "Prompt Engineering"
-];
+	useEffect(() => {
+		// Full list of images to cycle through
+		const allImages = [
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+			// Duplicated for length if needed, though Marquee handles simple loops well
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+		];
 
+		setImages(allImages);
+	}, []);
 
-export default function Skills() {
-return (
-	<section id="skills" className="max-w-6xl mx-auto py-20 px-6">
-		<h2 className="text-4xl font-bold mb-6">Skills</h2>
-		<div className="flex flex-wrap gap-3">
-			{skills.map((skill) => (
-				<span key={skill} className="px-4 py-2 bg-indigo-500/20 text-indigo-300 rounded-xl">
-					{skill}
-				</span>
-			))}
+	return (
+		<div>
+			<div>
+				<div className="grid-container w-full max-w-7xl mx-auto">
+					<div className="item1 w-full">
+						<div className="marquee w-full">
+							<div className="marquee-content z-10 w-full">
+								<Marqueee images={images} direction="left" />
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
 		</div>
-	</section>
-);
-}
+	);
+};
+
+export default Skills;
