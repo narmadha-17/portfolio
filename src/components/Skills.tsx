@@ -10,24 +10,20 @@ const Skills = () => {
 		// Full list of images to cycle through
 		const allImages = [
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-			// Duplicated for length if needed, though Marquee handles simple loops well
+			"https://www.bestaitools.com/wp-content/uploads/2024/05/langchain-square.png",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+			"https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg", // For Prompt Engineering
+		
+			// Duplicated for length (to recheck)
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+			"https://www.bestaitools.com/wp-content/uploads/2024/05/langchain-square.png",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+			"https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg", // For Prompt Engineering
+
 		];
 
 		setImages(allImages);
