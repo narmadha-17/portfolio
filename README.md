@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Narmadha G - Portfolio
+# Portfolio
 
 This is a starter portfolio built with Vite + React + TypeScript + Tailwind CSS.
 
