@@ -20,7 +20,7 @@ Software Engineer | ML Enthusiast | AI Developer
 
 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8, delay: 0.6 }} className="mt-8 flex gap-4">
 <a href="#projects" className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 rounded-xl shadow-lg transition-all">View Projects</a>
-<a href="/resume.pdf" download className="px-6 py-3 border border-white/40 backdrop-blur-xl bg-white/10 rounded-xl hover:bg-white/20 transition-all">Download Resume</a>
+<a href="src/components/image/resume.pdf" download className="px-6 py-3 border border-white/40 backdrop-blur-xl bg-white/10 rounded-xl hover:bg-white/20 transition-all">Download Resume</a>
 </motion.div>
 </section>
 );

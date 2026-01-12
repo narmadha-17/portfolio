@@ -11,7 +11,7 @@ const projects = [
       </span>
     ),
     badgeLink: "https://github.com/narmadha-17/Smart_Info_Extractor",
-    image: "/project1.webp",
+    image: "src/components/image/project1_cover_img.png",
   },
   {
     title: (
@@ -20,7 +20,7 @@ const projects = [
       </span>
     ),
     badgeLink: "https://github.com/narmadha-17/LLM-Tool-Cost-Tracker",
-    image: "/project2.webp",
+    image: "src/components/image/project2_cover_img.png",
   },
   {
     title: (
@@ -29,7 +29,7 @@ const projects = [
       </span>
     ),
     badgeLink: "https://github.com/narmadha-17/student_course_registration_system",
-    image: "/project3.webp",
+    image: "src/components/image/project3_cover_img.png",
   }
   // Add more projects as needed
 ];
