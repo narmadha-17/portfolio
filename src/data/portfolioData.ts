@@ -2,7 +2,7 @@ import type { PortfolioData } from '../types/portfolio'
 
 export const portfolioData: PortfolioData = {
   name: 'Narmadha G',
-  headline: 'Software Engineer — AI & Machine Learning',
+  headline: 'Associate Software Engineer — AI & Machine Learning',
   contact: {
     email: 'narmadhaganesan1@gmail.com',
     phone: '+91 xxxxx-xxxxx',
@@ -60,7 +60,7 @@ export const portfolioData: PortfolioData = {
     }
   ],
   education: [
-    { degree: "B.E. - Computer Science", school: 'Your University', year: '2024' }
+    { degree: "B.E. - Computer Science", school: 'Bannari Amman Institute of Technology', year: '2021-2025' }
   ],
   achievements: [
     'Jury Choice Award - Paper Presentation',
