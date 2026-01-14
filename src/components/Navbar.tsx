@@ -1,6 +1,5 @@
 import { Link } from "react-scroll";
 
-
 export default function Navbar() {
 return (
 <nav className="fixed top-0 w-full z-50 backdrop-blur-xl bg-white/10 border-b border-white/10 p-4">
