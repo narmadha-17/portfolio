@@ -52,7 +52,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center">Works...</h2>
         <div className="space-y-20">
           {projects.map((project, idx) => (
             <div key={idx} className="flex flex-col overflow-hidden">

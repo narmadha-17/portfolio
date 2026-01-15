@@ -12,19 +12,19 @@ import Footer from "./components/Footer";
 
 
 function App() {
-return (
-<div className="bg-slate-900 text-white overflow-x-hidden">
-<Navbar />
-<Hero />
-<About />
-<Skills />
-<Experience />
-<Projects />
-<Education />
-<Achievements />
-<Footer />
-</div>
-);
+    return (
+        <div className="bg-black text-white overflow-x-hidden">
+            <Navbar />
+            <Hero />
+            <About />
+            <Skills />
+            <Experience />
+            <Projects />
+            <Education />
+            <Achievements />
+            <Footer />
+        </div>
+    );
 }
 
 
