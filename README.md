@@ -1,4 +1,4 @@
-# Narmadha G - Portfolio
+# Portfolio
 
 A modern, responsive portfolio website showcasing software engineering projects, skills, and achievements. Built with cutting-edge web technologies and featuring stunning animations and a sleek monochromatic design.
 
