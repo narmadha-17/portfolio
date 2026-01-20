@@ -46,7 +46,7 @@ export default function Experience() {
 							className="relative pl-12"
 						>
 							{/* Timeline Dot */}
-							<div className={`absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-black border-2 border-${exp.color}-500 shadow-[0_0_10px_rgba(59,130,246,0.5)]`} />
+							<div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-black border-2 border-white shadow-[0_0_10px_rgba(255,255,255,0.5)]" />
 
 							<div className="bg-white/5 p-8 rounded-2xl backdrop-blur-xl border border-white/10 hover:border-white/20 transition-all duration-300 group">
 								<div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
