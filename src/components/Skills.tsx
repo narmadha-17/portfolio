@@ -1,29 +1,18 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Marqueee from "./Marqueee";
 import 'react-circular-progressbar/dist/styles.css';
 
 const Skills = () => {
 	const [images, setImages] = useState<string[]>([]);
-	// Using CDN URLs for reliable image loading without local assets
 
 	useEffect(() => {
-		// Full list of images to cycle through
 		const allImages = [
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
 			"https://www.bestaitools.com/wp-content/uploads/2024/05/langchain-square.png",
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
-			"https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg", // For Prompt Engineering
-		
-			// Duplicated for length (to recheck)
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
-			"https://www.bestaitools.com/wp-content/uploads/2024/05/langchain-square.png",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
-			"https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg", // For Prompt Engineering
-
+			"https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
 		];
 
 		setImages(allImages);
@@ -41,7 +30,7 @@ const Skills = () => {
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	);
